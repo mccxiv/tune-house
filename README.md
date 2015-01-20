@@ -3,7 +3,7 @@
 ## <a href="http://tunehouse.mccxiv.me" target="_blank">tunehouse.mccxiv.me</a>
 
 #### What is it?
-A single page music player, Listen to any song or entire album by searching for an artist.
+A single page music player, Listen to any song or entire albums by searching for an artist.
 
 #### Features and status
 - [x] Find songs and add them to a queue
