@@ -10,12 +10,12 @@
 
 @font-face {
     font-family: SquaredDisplay;
-    src: url(SquaredDisplay.ttf);
+    src: url(../fonts/SquaredDisplay.ttf);
 }
 
 .logo
 {
-    font-family: SquaredDisplay;
+    font-family: SquaredDisplay, sans-serif;
     display: inline-block;
     margin-left: 20px;
     font-size: 25px;
