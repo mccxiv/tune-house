@@ -1,0 +1,266 @@
+* {-moz-box-sizing: border-box; box-sizing: border-box;}
+
+*
+{
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+@font-face {
+    font-family: SquaredDisplay;
+    src: url(SquaredDisplay.ttf);
+}
+
+.logo
+{
+    font-family: SquaredDisplay;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 900;
+    cursor: default;
+}
+
+html, body, .content, .content > *, .row
+{
+    height: 100%;
+}
+
+body
+{
+    min-width: 700px;
+    background-size: cover;
+    background-image: url(../img/bg.jpg);
+    overflow: hidden;
+}
+
+a
+{
+    cursor: pointer;
+}
+
+.content
+{
+    padding-top: 51px;
+    padding-bottom: 86px;
+}
+
+.breadcrumb
+{
+    background-color: transparent;
+    margin: 7px 10px;
+    display: inline-block;
+}
+
+.transparent
+{
+    opacity: 0;
+}
+
+.list-container
+{
+    padding-left: 50px;
+}
+
+.list-container .list-group
+{
+    position: relative;
+    box-shadow: rgba(0,0,0,0.5) 0 2px 5px;
+    margin-bottom: 0;
+}
+
+.list-container .list-group-item
+{
+    padding-left: 10%;
+}
+
+.list-container .list-group-item:first-child
+{
+    padding-left: 5%;
+}
+
+.list-container .list-group-item:first-child, .list-container .list-group-item:last-child
+{
+    border-radius: 0;   
+}
+
+.list-container .list-group-item:first-child
+{
+    padding-top: 85px;
+    border-top: none;
+}
+
+.list-container .list-group-item:last-child
+{
+    padding-bottom: 152px;
+    border-bottom: none;
+    width: 100%;
+}
+
+.list-container h2
+{
+    margin-top: 0;
+}
+
+.side-container
+{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    padding-top: 51px;
+    padding-bottom: 86px;
+    pointer-events: none;
+}
+
+.featured-image
+{
+    margin: auto;
+    display: block;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;   
+    height: auto;
+    max-width: 70%;
+    max-height: 70%;    
+    box-shadow: rgba(0,0,0,0.7) 0 0px 25px;
+    border:  1px solid rgba(0,0,0,0.5);
+    background-color: black;
+}
+
+.side-container-wrapper
+{
+    position: relative;    
+    height: 100%;
+}
+
+.row
+{
+    margin: 0;
+    overflow-y: auto;
+}
+
+.background-image 
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-position: center center;    
+    -webkit-filter: blur(25px);
+    -moz-filter: blur(25px);
+    filter: blur(25px);
+    opacity: 0.8;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+.search-bar
+{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: auto;
+
+    font-size: x-large;
+    box-shadow: rgba(0,0,0,0.7) 0 4px 10px;
+    max-width: 700px;
+}
+
+.play-all .glyphicon
+{
+    margin-left: 10px;
+}
+
+.volume-container
+{
+    pointer-events: none;
+}
+
+.volume-slider
+{
+    pointer-events: all;
+}
+
+/* Bootstrap's default tooltips are too small! */
+.tooltip-inner 
+{
+    max-width: 500px;
+}
+
+.search-query, .dropdown-search-button
+{
+    height: 50px;
+    font-size: x-large;
+    border: 1px solid black;
+}
+
+.content-list
+{
+    max-width: 400px;
+}
+
+.content-list a
+{
+    color: inherit;
+}
+
+.notification-area
+{
+    position: absolute;
+    bottom: 87px;
+    right: 25px;
+    overflow-y: hidden;
+    height: 120px;
+    width: 500px;
+    pointer-events: none;
+}
+
+.alerts-container
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+.ajaxing *
+{
+	cursor: progress !important;
+}
+
+
+/* BOOTSTRAP TWEAKS */
+.alert
+{
+    padding: 6px 24px;
+    margin-bottom: 5px;
+    text-align: right;
+    max-width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.caret 
+{
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid white;
+}
+
+.breadcrumb
+{
+    border: none;
+    background-image: none;
+}
+
+.popover-content
+{
+    font-size: medium;
+}

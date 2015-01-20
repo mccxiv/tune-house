@@ -1,0 +1,35 @@
+
+/* Initial values, they will be animated*/
+.navbar-fixed-top, .navbar-fixed-bottom
+{
+    transition: all .5s .5s;
+}
+
+.content
+{
+    transition: background-color .5s;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+html.loaded .content
+{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.unshown .navbar-fixed-top {margin-top: -51px;}
+.navbar-fixed-top {transition: all .5s .5s;}
+
+.unshown .navbar-fixed-bottom {margin-bottom: -86px;}
+.navbar-fixed-bottom {transition: all .5s .5s;}
+
+.unshown .logo {margin-left: -200px;}
+.logo {transition: all .3s 1.5s;}
+
+.unshown .queue-controls {right: -500px;}
+.queue-controls {transition: all .5s 1s;}
+
+.unshown .queue-track {margin-bottom: -60px; opacity: 0;}
+.queue-track {transition: all .15s;}
+
+.unshown .search-bar {opacity: 0;}
+.search-bar {transition: all .25s;}
