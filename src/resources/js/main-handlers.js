@@ -11,23 +11,23 @@ function documentReady()
 
 	// boostrap stuff
 	$('.btn').button();
-	$('.search-bar').popover(
+	/*$('.search-bar').popover(
 		{
 			placement: 'bottom',
 			trigger: 'manual',
 			content: 'Tab to change'
-		});
+		});*/
 
 	// load saved volume
 	if (localStorage && localStorage.volume) $('.volume-slider').val(localStorage.volume).trigger('input');
 
 	// Show tip
-	setTimeout(function()
+	/*setTimeout(function()
 	{
 		var sb = $('.search-bar');
 		sb.popover('show');
 		setTimeout(function() {sb.popover('hide');}, 3000);
-	}, 2000);
+	}, 2000);*/
 }
 
 function windowLoaded()
