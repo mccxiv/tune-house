@@ -8,7 +8,7 @@ A single page music player, Listen to any song or entire albums by searching for
 #### Features and status
 - [x] Find songs and add them to a queue
 - [x] Play songs in the queue
-- [x] Share search results
+- [x] Share search results (deep links)
 - [ ] Share a queue
 
 ##### Project info
