@@ -1,5 +1,5 @@
 window.CONFIG = {
 	LASTFM_API_KEY: 'replace_this',
 	YOUTUBE_API_KEY: 'replace_this',
-	GOODLE_ANALYTICS_ID: 'replace_this' //false to disable
+	GOOGLE_ANALYTICS_ID: 'replace_this' //false to disable
 };
