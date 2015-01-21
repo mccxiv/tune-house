@@ -2,7 +2,6 @@
 
 ## <a href="http://tunehouse.mccxiv.me" target="_blank">tunehouse.mccxiv.me</a>
 
-#### What is it?
 A single page music player, Listen to any song or entire albums by searching for an artist.
 
 #### Running the development version
