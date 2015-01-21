@@ -3,7 +3,7 @@ function Queue()
 {
     var player = null;
     this.getPlayer = function() {return player;};
-    var key = YOUTUBE_API_KEY;
+    var key = CONFIG.YOUTUBE_API_KEY;
     var queueDom = $('.queue');
     var queueTracks = queueDom.find('.queue-tracks');
     var trackTemplate = _.template($('.queue-track-template').html());

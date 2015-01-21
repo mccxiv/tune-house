@@ -5,7 +5,7 @@ function documentReady()
 	App.instances.router = new App.classes.AppRouter();
 	App.instances.spinner = new Spinner();
 	App.instances.notif = new Notifications();
-	App.instances.api = new LastFMAPI(LASTFM_API_KEY);
+	App.instances.api = new LastFMAPI(CONFIG.LASTFM_API_KEY);
 	App.instances.queue = new Queue();
 	Backbone.history.start();
 
