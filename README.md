@@ -1,8 +1,7 @@
 # The tune house
-
-## <a href="http://tunehouse.mccxiv.me" target="_blank">tunehouse.mccxiv.me</a>
-
 A single page music player, Listen to any song or entire albums by searching for an artist.
+
+### <a href="http://tunehouse.mccxiv.me" target="_blank">tunehouse.mccxiv.me</a>
 
 #### Running the development version
 - Clone this repository
