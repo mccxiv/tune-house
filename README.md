@@ -1,5 +1,5 @@
 # The tune house
-A single page music player, Listen to any song or entire albums by searching for an artist.
+Single page music player, Listen to any song or entire albums by searching for an artist.
 
 ### <a href="http://tunehouse.mccxiv.me" target="_blank">tunehouse.mccxiv.me</a>
 
