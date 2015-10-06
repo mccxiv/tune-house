@@ -7,7 +7,7 @@
  */
 function Album(structure)
 {
-	if (!structure.artist || !structure.name || !structure.image ) throw new Error('invalid parameters for Album');
+	if (!structure.artist || !structure.name) throw new Error('invalid parameters for Album');
 
 	var artist = structure.artist;
 	var name = structure.name;
