@@ -18,7 +18,6 @@ App.classes.BaseView = Backbone.View.extend(
 
 	render: function(cb)
 	{
-		console.log('model', this.model);
 		this.$el.appendTo($(this.elWrapper));
 		var templateString = $(this.templateSelector).html();
 		var templateStringWithData = this.model? _.template(templateString)(this.model) : templateString;
@@ -42,11 +41,7 @@ App.classes.BaseView = Backbone.View.extend(
 		{
 			var cl = this.$('.content-list');
 			if (cl.length) cl.hide().show('drop', cb);
-			else if (cb)
-			{
-				console.log('cb is:', cb);
-				cb();
-			}
+			else if (cb) cb();
 		}
 	},
 
@@ -81,7 +76,6 @@ App.classes.SearchView = App.classes.BaseView.extend(
 
 	key: function(e)
 	{
-		console.log('key');
 		if (e.which === 13) this.searchEnter();
 		else if (e.which === 9)
 		{
@@ -92,7 +86,6 @@ App.classes.SearchView = App.classes.BaseView.extend(
 
 	searchEnter: function()
 	{
-		console.log('searchEnter');
 		var searchBox = this.$('.search-query');
 		var query = searchBox.val().trim();
 		if (!query) return;

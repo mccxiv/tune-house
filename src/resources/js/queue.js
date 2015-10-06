@@ -10,8 +10,7 @@ function Queue()
     
     function error(msg)
     {
-		console.log('ERROR:');
-		console.log(msg);
+		console.log('ERROR:', msg);
     }
     
     function play()

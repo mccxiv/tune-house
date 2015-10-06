@@ -37,7 +37,6 @@ function windowLoaded()
 
 function playAllTracks()
 {
-	console.log('playing all');
 	var executeIn = 0;
 	$('.track').each(function()
 	{
